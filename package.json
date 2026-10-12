@@ -1,0 +1,31 @@
+{
+  "name": "aether-ai",
+  "version": "1.0.0",
+  "description": "AETHER · 世界顶级零依赖 AI/ML 引擎 — 数值严谨、可验证、可复现 (author: 晨星)",
+  "author": "晨星",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node dist/tests/run.js",
+    "verify": "tsc -p tsconfig.json && node dist/tests/run.js"
+  },
+  "keywords": [
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "transformer",
+    "svd",
+    "pca",
+    "gmm",
+    "autodiff",
+    "numerical",
+    "零依赖"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.4.5"
+  }
+}
